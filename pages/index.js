@@ -5,9 +5,9 @@ export default function Home() {
     <div className="min-h-screen bg-white text-black font-sans">
       <header className="flex items-center justify-between p-6 border-b border-gray-200">
         <div className="text-2xl font-bold flex items-center space-x-2">
-          <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center">
-            <span className="text-white text-xl">✓</span>
-          </div>
+        <div className="flex items-center">
+  <img src="/logo.png" alt="PiTaska Logo" className="h-10" />
+</div>
           <span>PiTaska</span>
         </div>
         <div className="space-x-4">
